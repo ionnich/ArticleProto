@@ -1,0 +1,75 @@
+body {
+    width: 300px;
+    height: 400px;
+  }
+  
+  #wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  #input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  #nameTextField {
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  button {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4285f4;
+    color: #fff;
+    cursor: pointer;
+    width: 100px;
+  }
+  
+  #articles-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #articles-container h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  #todaysArticlesList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #headlines-container, #campaigns-container {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  #headlines-container h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  #headlinesToggle {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  

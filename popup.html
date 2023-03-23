@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Article Manager</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+</head>
+<body>
+  <div id="wrapper">
+    <h1>Article Manager</h1>
+    <div id="input-container">
+      <input type="text" id="nameTextField" placeholder="Enter your name">
+      <div id="buttons-container">
+      <button id="saveArticlesButton">Save</button>
+      <button id="exportButton">Export</button>
+      <button id="resetButton">Reset</button>
+      </div>
+    </div>
+    <div id="articles-container">
+      <h2>Today's Articles</h2>
+      <ul id="todaysArticlesList"></ul>
+    </div>
+    <div id="headlines-container">
+      <h2>Headlines</h2>
+      <!-- <button id="headlinesToggle">Show/Hide</button> -->
+      <ul id="headlinesList"></ul>
+    </div>
+    <div id="campaigns-container">
+      <h2>Campaigns</h2>
+      <!-- <button id="campaignsToggle">Show/Hide</button> -->
+      <ul id="campaignsList"></ul>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
